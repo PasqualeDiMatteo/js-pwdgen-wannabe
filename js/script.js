@@ -5,3 +5,8 @@ console.log('JS OK')
 const passwordNumber = '21'
 const passwordPlaceholder = document.getElementById('password');
 console.log(passwordPlaceholder);
+
+// Chiedo all'utente il suo nome e lo salvo
+
+const firstName = prompt('Inserisci il nome', 'Pasquale')
+console.log(firstName);
