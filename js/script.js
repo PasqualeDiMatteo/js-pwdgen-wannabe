@@ -10,3 +10,8 @@ console.log(passwordPlaceholder);
 
 const firstName = prompt('Inserisci il nome', 'Pasquale')
 console.log(firstName);
+
+// Chiedo all'utente il suo cognome e lo salvo;
+
+const lastName = prompt('Inserisci il Cognome', 'Di Matteo')
+console.log(lastName);
