@@ -1,9 +1,9 @@
 console.log('JS OK')
 
-// Memorizzo in una variabile il Valore 21
+// Memorizzo in una variabile il Valore 21 e Recupero l'elemento dal DOM
 
 const passwordNumber = '21'
-const passwordPlaceholder = document.getElementById('password');
+const passwordPlaceholder = document.getElementById('password')
 console.log(passwordPlaceholder);
 
 // Chiedo all'utente il suo nome e lo salvo
@@ -25,3 +25,7 @@ console.log(favoriteColor);
 
 const generatePassword = firstName + lastName + favoriteColor + passwordNumber
 console.log(generatePassword);
+
+// Inserisco la password all'interno dell'elemento nel DOM;
+
+passwordPlaceholder.innerText = generatePassword;
